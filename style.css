@@ -1,4 +1,79 @@
+html {
+	font-family:'Nunito', sans-serif;
+}
+
 body {
-	background-image:url('http://www.glutenfreecat.com/wp-content/uploads/2013/01/DSC_0015.jpg');
-	background-size: 100%;
+	background-image:url('http://interfacelift.com/wallpaper/D47cd523/03224_giants_2880x1800.jpg');
+	background-size: 120%;
+	display: block;
+}
+
+div {
+	display: block;
+	padding: 0 5px 0 5px;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
+
+.container {
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+
+.menu {
+	border: 2px solid gray;
+	padding: 10px;
+	background-color:rgba(145,145,145,0.5);
+	border-radius: 2px;
+
+}
+
+.menu li {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0 15px;
+
+}
+
+.menu li a {
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: #fff;
+
+}
+
+#main {
+	border: 2px solid gray;
+	padding: 10px;
+	background-color:rgba(99,175,208,0.5);
+	border-radius: 2px;
+	display: block;
+}
+
+.content {
+	float: left;
+	width: 80%;
+}
+
+.sidebar {
+	float: right;
+	width: 15%;
+}
+
+.sidebar .module {
+	border:1px dotted gray;
+	margin: 0 0 15px 0;
 }
